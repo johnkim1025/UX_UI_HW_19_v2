@@ -15,12 +15,12 @@ body {
     margin: 0;
 }
 label {
-    font-size: 20pt;
+    font-size: 18pt;
 }
 input {
-    height: 75px;
+    height: 50px;
     width: 50vh;
-    font-size: 25pt;
+    font-size: 20pt;
     background-color: #ffffff;
     border-radius: 8px;
     border: none;
@@ -114,7 +114,7 @@ button:focus {
     padding-right: 200px;
 }
 .icons {
-    width: 100px;
+    width: 75px;
     padding: 0 0 16px 0;
 }
 .icons:hover {
@@ -132,9 +132,9 @@ button:focus {
     background-color: #F47820;
     border: none;
     color: white;
-    width: 225px;
-    height: 70px;
-    font-size: 20pt;
+    width: 175px;
+    height: 50px;
+    font-size: 18pt;
 }
 .resumebtn:hover {
     opacity: 0.7;
@@ -146,67 +146,43 @@ button:focus {
     transform: translateY(4px);
 }
 /* Projects */
-.mobile-Proj {
-    display: none;
-}
 .projects {
-    margin: 0 0 0 0;
     display: flex;
-    flex-direction: column;
-    color: white;
-}
-.border {
-    width: 50%;
-    height: 500px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10% 0 10%;
 }
 .ayuda {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    background-color: #270E14;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+.plantp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    background-color: #751113;
+    border-radius: 8px;
+    margin-left: 20px;
 }
 #ayuda-logo-img {
     width: 250px;
 }
-.plantp{
-    display: flex;
-    flex-direction: row;
-}
 #plantp-logo-img {
     width: 250px;
 }
-.project1-info {
-    display: flex;
-    align-items: center;
-    background-color: #270E14;
-}
-.ayuda-logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #E5E5E5;
-}
-.project2-info {
-    display: flex;
-    align-items: center;
-    background-color: #751113;
-}
-.plantp-logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #ffffff;
-}
-.projects h2 {
-    margin: 0;
-}
-.project-content{
-    padding: 50px;
-}
-.project-content p {
-    font-size: 20pt;
-}
 /* Connect Section */
 .connect {
-    padding: 160px 0 160px 0;
+    margin: 80px 40px 0 40px;
+    padding: 50px 0 50px 0;
     background-color: #E5E5E5;
 }
 .connect-container{
@@ -229,13 +205,13 @@ button:focus {
 }
 #submitbtn {
     margin-top: 45px;
-    height: 75px;
-    width: 200px;
+    height: 50px;
+    width: 150px;
     border-radius: 8px;
     border: none;
     background-color: #751113;
     color: white;
-    font-size: 20pt;
+    font-size: 18pt;
 }
 #submitbtn:hover {
     opacity: 0.7;
@@ -315,33 +291,7 @@ button:focus {
         font-weight: 500;
     }
     /* Projects */
-    .mobile-Proj {
-        font-size: 25pt;
-        display: flex;
-        justify-content: center;
-        color: black;
-        margin: 160px 0 40px 0;
-    }
-    .border.project1-info {
-        display: none;
-    }
-    .border.project2-info {
-        display: none;
-    }
-    .border {
-        width: auto;
-        height: 350px;
-    }
-    .ayuda {
-        display: block;
-    }
-    #ayuda-logo-img {
-        width: 250px;
-    }
-    .plantp{
-        display: block;
-        justify-content: center;
-    }
+
     /* Form */
 
     /* Footer */
@@ -349,7 +299,7 @@ button:focus {
         margin-top: 160px;
     }
 }
-@media only screen and (max-width: 1705px) {
+@media only screen and (max-width: 1700px) {
     /* Info */
     .mobile-char {
         display: block;
@@ -362,13 +312,13 @@ button:focus {
         flex-direction: column;
         margin-bottom: 0;
     }
-    .bioINFO h1 {
+    h1 {
         display: flex;
         justify-content: center;
         font-size: 25pt;
         
     }
-    .bioINFO h2 {
+    h2 {
         display: flex;
         justify-content: center;
         text-align: center;
@@ -404,6 +354,20 @@ button:focus {
     }
 }
 @media only screen and (max-width: 1400px) {
+    .ayuda {
+        width: 40vh;
+        height: 40vh;
+    }
+    .plantp {
+        width: 40vh;
+        height: 40vh;
+    }
+    #ayuda-logo-img {
+        width: 20vh;
+    }
+    #plantp-logo-img {
+        width: 20vh;
+    }
     .connect-container{
         display: flex;
         flex-direction: column;
@@ -443,15 +407,23 @@ button:focus {
     }
 }
 @media only screen and (max-width: 650px) {
+    .projects {
+        flex-direction: column;
+    }
+    .ayuda {
+        width: 40vh;
+        height: 40vh;
+        margin: 20px 20px 20px 20px;
+    }
+    .plantp {
+        width: 40vh;
+        height: 40vh;
+        margin: 20px 20px 20px 20px;
+    }
     input {
         width: 275px;
         font-size: 16pt;
         padding: 0;
-        text-align: center;
-    }
-}
-@media only screen and (max-width: 420px) {
-    .connect-container.connect-h1 h1 {
         text-align: center;
     }
 }
