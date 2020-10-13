@@ -37,7 +37,7 @@ button:focus {
 .content-label {
     margin-bottom: 10px;
 }
-/* Navigation */
+                                                    /* Navigation */
 .left-header a {
     text-decoration: none;
     color: black;
@@ -92,7 +92,7 @@ button:focus {
     color: black;
     font-weight: 500;
 }
-/* Info Section */
+                                                    /* Info Section */
 .mobile-char {
     display: none;
 }
@@ -145,7 +145,7 @@ button:focus {
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
-/* Projects */
+                                                    /* Projects */
 .projects {
     display: flex;
     flex-direction: row;
@@ -157,8 +157,8 @@ button:focus {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 500px;
-    height: 500px;
+    width: 50vw;
+    height: 25vw;
     background-color: #270E14;
     border-radius: 8px;
     margin-right: 20px;
@@ -167,8 +167,8 @@ button:focus {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 500px;
-    height: 500px;
+    width: 50vw;
+    height: 25vw;
     background-color: #751113;
     border-radius: 8px;
     margin-left: 20px;
@@ -179,7 +179,7 @@ button:focus {
 #plantp-logo-img {
     width: 250px;
 }
-/* Connect Section */
+                                                    /* Connect Section */
 .connect {
     margin: 80px 40px 0 40px;
     padding: 50px 0 50px 0;
@@ -222,7 +222,7 @@ button:focus {
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
-/* Footer */
+                                                    /* Footer */
 .site-footer {
     margin-top: 160px;
     display: flex;
@@ -246,7 +246,7 @@ button:focus {
     align-items: center;
 }
 @media only screen and (max-width: 1000px) {
-    /* Navigation */
+                                                        /* Navigation */
     .navigation {
         margin: 0px;
     }
@@ -290,11 +290,11 @@ button:focus {
         color: black;
         font-weight: 500;
     }
-    /* Projects */
+                                                        /* Projects */
 
-    /* Form */
+                                                        /* Form */
 
-    /* Footer */
+                                                        /* Footer */
     .site-footer {
         margin-top: 160px;
     }
