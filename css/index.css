@@ -11,6 +11,9 @@ h2 {
     font-weight: 400;
     margin: 10px 0 10px 0;
 }
+p {
+    font-size: 20pt;
+}
 body {
     margin: 0;
 }
@@ -162,6 +165,16 @@ button:focus {
     background-color: #270E14;
     border-radius: 8px;
     margin-right: 20px;
+}
+#ayuda-info {
+    padding: 40px;
+    display: none;
+    color: white;
+}
+#plantp-info {
+    padding: 40px;
+    display: none;
+    color: white;
 }
 .plantp {
     display: flex;
