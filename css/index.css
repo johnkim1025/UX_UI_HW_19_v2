@@ -267,60 +267,7 @@ button:focus {
     justify-content: center;
     align-items: center;
 }
-@media only screen and (max-width: 1000px) {
-                                                        /* Navigation */
-    .navigation {
-        margin: 0px;
-    }
-    .header {
-        display: flex;
-        flex-direction: row;
-    }
-    .header .left-header img {
-        height: auto;
-        width: 72px;
-    }
-    .left-header {
-        display: flex;
-        flex-direction: row;
-        flex-grow: 1;
-    }
-    .left-header p {
-        font-size: 30px;
-        margin-top: 25px;
-        margin-left: -10px;
-    }
-    .right-header {
-        display: none;
-    }
-    .nav-Home:hover {
-        box-shadow: 0 3px #F47820;    
-    }
-    .nav-Home:active {
-        transform: translateY(4px);
-    }
-    .nav-Aboutme:hover {
-        box-shadow: 0 3px #F47820;
-    }
-    .navBar li {
-        display: inline-block;
-    }
-    .navBar li a {
-        font-size: 20pt;
-        text-decoration: none;
-        padding: 0 30px 0 30px;
-        color: black;
-        font-weight: 500;
-    }
-                                                        /* Projects */
 
-                                                        /* Form */
-
-                                                        /* Footer */
-    .site-footer {
-        margin-top: 160px;
-    }
-}
 @media only screen and (max-width: 1700px) {
     /* Info */
     .mobile-char {
@@ -373,6 +320,18 @@ button:focus {
     .resumebtn {
         pointer-events: none;
         margin-bottom: 60px;
+    }
+    #ayuda-click {
+        text-align: center;
+    }
+    #plantp-click {
+        text-align: center;
+    }
+    #ayuda-info p {
+        font-size: 16pt;
+    }
+    #plantp-info p {
+        font-size: 16pt;
     }
 }
 @media only screen and (max-width: 1400px) {
@@ -427,6 +386,60 @@ button:focus {
     #submitbtn {
         pointer-events: none;
     }
+}
+@media only screen and (max-width: 1000px) {
+    /* Navigation */
+.navigation {
+margin: 0px;
+}
+.header {
+display: flex;
+flex-direction: row;
+}
+.header .left-header img {
+height: auto;
+width: 72px;
+}
+.left-header {
+display: flex;
+flex-direction: row;
+flex-grow: 1;
+}
+.left-header p {
+font-size: 30px;
+margin-top: 25px;
+margin-left: -10px;
+}
+.right-header {
+display: none;
+}
+.nav-Home:hover {
+box-shadow: 0 3px #F47820;    
+}
+.nav-Home:active {
+transform: translateY(4px);
+}
+.nav-Aboutme:hover {
+box-shadow: 0 3px #F47820;
+}
+.navBar li {
+display: inline-block;
+}
+.navBar li a {
+font-size: 20pt;
+text-decoration: none;
+padding: 0 30px 0 30px;
+color: black;
+font-weight: 500;
+}
+    /* Projects */
+
+    /* Form */
+
+    /* Footer */
+.site-footer {
+margin-top: 160px;
+}
 }
 @media only screen and (max-width: 650px) {
     .projects {
