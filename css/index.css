@@ -192,6 +192,15 @@ button:focus {
 #plantp-logo-img {
     width: 250px;
 }
+.project-button {
+    border-radius: 8px;
+    background-color: white;
+    border: none;
+    color: #270E14;
+    width: 175px;
+    height: 50px;
+    font-size: 18pt;
+}
                                                     /* Connect Section */
 .connect {
     margin: 80px 40px 0 40px;
